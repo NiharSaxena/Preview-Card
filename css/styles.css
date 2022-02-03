@@ -1,0 +1,55 @@
+body{
+  font-family: 'Outfit', sans-serif;
+}
+.outer-container {
+  position: relative;
+  background-color: hsl(217, 54%, 11%);
+  width: 90em;
+  height: 37.5em;
+  margin: 5.25em 2.125em;
+}
+
+.inner-container {
+  background-color: hsl(216, 50%, 16%);
+  width: 17.5em;
+  height: 28em;
+  position: absolute;
+  left: 35.625em;
+  top: 4.25em;
+  border-radius: 10px;
+}
+
+.content{
+  margin:-10px 20px 0;
+  color: hsl(0, 0%, 100%);
+}
+
+.equilibrium {
+  width: 15.625em;
+  height: 14.375em;
+  margin: 1em;
+  border-radius: 8px;
+}
+.equilibrium:active,.name:active,.para:active{
+  color: hsl(178, 100%, 50%);
+}
+
+.ethereum{
+  width: 10px;
+  height: 13px;
+}
+.clock{
+  width: 13px;
+  height:13px;
+}
+span{
+  font-weight: normal;
+}
+hr{
+  border-color: hsl(215, 32%, 27%);
+  margin: 15px 0;
+}
+.avatar{
+  width: 20px;
+  height: 13px;
+}
